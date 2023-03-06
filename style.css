@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    border: 1px solid indianred;
+}
+.Register a{
+    text-decoration:none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indigo;
+}
+.Register a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    max-width: 650px;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.h-text h1{
+    font-size: 50px;
+    padding: 20px 20px;
+}
+.h-text a{
+    text-decoration:none;
+    color: #fff;
+    background: indigo;
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.h-text a:hover{
+    border: 1px solid indigo;
+    background: transparent;
+}
